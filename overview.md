@@ -298,7 +298,7 @@ category_translation
 **Visualizations:**
 - Horizontal bar chart: top 10 sellers by late delivery rate
 - Scatter plot: total orders (x) vs late delivery rate (y)
-- Table with seller details and performance metrics
+- Tablee with seller details and performance metrics
 
 ---
 
