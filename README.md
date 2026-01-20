@@ -25,7 +25,7 @@ This project analyzes the Brazilian E-Commerce dataset from Olist to improve cus
 - **Payments:** 103,886 records (99,440 unique orders)
 - **Reviews:** 99,224 records
 - **Geolocation:** 1,000,163 records (19,015 unique zip codes)
-- **Category Translation:** 71 records
+- **Category Translation:** 71 records.
 
 ### Dataset Structure
 
