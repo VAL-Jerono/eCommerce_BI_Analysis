@@ -1,0 +1,136 @@
+customer_city,avg_delivery_days,median_delivery_days,order_count
+manaus,26.46,25.96,137
+maceio,25.7,23.54,236
+belem,21.89,19.37,431
+teresina,20.92,17.65,271
+aracaju,20.71,17.7,213
+fortaleza,20.63,17.22,618
+sao luis,20.5,19.06,335
+joao pessoa,20.48,19.04,245
+nova friburgo,19.64,14.21,142
+salvador,19.35,17.17,1188
+rio das ostras,19.31,13.68,130
+porto velho,19.19,16.72,108
+cabo frio,18.86,15.14,113
+sao goncalo,18.81,14.91,385
+recife,18.45,15.37,593
+cuiaba,18.34,16.8,243
+natal,18.29,15.85,203
+sao joao de meriti,17.87,12.34,124
+pelotas,17.37,15.0,183
+santa maria,17.29,14.47,196
+macae,17.28,12.81,228
+serra,17.24,16.2,278
+vila velha,17.1,15.0,326
+canoas,16.95,14.49,205
+rio grande,16.73,13.29,121
+resende,16.66,13.38,115
+marica,16.64,13.85,133
+anapolis,16.58,15.24,111
+volta redonda,16.54,14.2,227
+feira de santana,16.47,15.13,181
+chapeco,16.45,14.03,101
+palmas,16.06,15.55,107
+porto alegre,15.98,13.16,1341
+jaboatao dos guararapes,15.81,14.15,131
+caxias do sul,15.8,13.37,220
+goiania,15.55,13.91,660
+barra mansa,15.54,12.41,119
+teresopolis,15.48,12.62,119
+duque de caxias,15.35,12.79,250
+petropolis,15.21,12.85,234
+joinville,15.21,12.79,257
+sao jose,15.16,12.77,167
+florianopolis,15.06,13.22,556
+aparecida de goiania,14.91,13.28,105
+sao leopoldo,14.88,12.94,103
+campos dos goytacazes,14.86,12.03,232
+cariacica,14.84,12.27,135
+campo grande,14.82,13.3,312
+rio de janeiro,14.76,11.75,6601
+niteroi,14.61,11.35,825
+belford roxo,14.48,12.2,104
+itajai,14.43,12.22,119
+gravatai,14.28,13.17,111
+novo hamburgo,14.28,12.46,121
+nilopolis,14.28,11.67,103
+vitoria,14.23,13.04,374
+passo fundo,14.14,12.07,112
+nova iguacu,14.06,10.74,423
+cachoeiro de itapemirim,13.82,12.24,121
+mage,13.21,10.73,106
+sete lagoas,13.19,11.32,126
+brasilia,12.97,11.36,2071
+pocos de caldas,12.52,10.61,116
+juiz de fora,12.47,10.96,423
+blumenau,12.41,11.04,181
+maringa,12.19,11.09,260
+pouso alegre,12.09,9.91,128
+betim,12.08,10.4,196
+hortolandia,12.08,9.93,142
+ponta grossa,12.05,10.45,141
+ipatinga,11.85,10.29,169
+cascavel,11.85,9.88,151
+uberlandia,11.64,10.16,367
+governador valadares,11.57,9.87,134
+londrina,11.27,10.07,298
+sao vicente,11.21,8.26,159
+contagem,11.19,9.24,415
+uberaba,11.18,10.14,186
+divinopolis,11.18,9.77,132
+belo horizonte,11.1,9.35,2697
+montes claros,11.09,10.0,207
+presidente prudente,11.09,8.9,157
+sao jose dos pinhais,10.71,9.34,130
+praia grande,10.7,8.15,301
+curitiba,10.46,8.95,1489
+franca,10.38,8.66,154
+taubate,10.19,8.61,260
+aracatuba,10.12,8.98,138
+botucatu,10.08,8.63,100
+sao carlos,10.07,8.18,235
+paulinia,9.95,7.85,127
+sumare,9.94,8.03,177
+marilia,9.9,8.42,194
+campinas,9.83,8.05,1406
+ribeirao preto,9.67,8.18,499
+araraquara,9.47,7.27,150
+sao jose do rio preto,9.46,8.21,329
+bauru,9.21,7.78,263
+santos,9.21,7.27,700
+itaquaquecetuba,9.05,6.99,168
+jundiai,8.97,7.54,549
+jacarei,8.92,6.83,189
+maua,8.77,6.72,317
+atibaia,8.75,6.99,154
+embu das artes,8.72,7.01,157
+diadema,8.57,6.78,276
+rio claro,8.56,7.47,154
+sao jose dos campos,8.55,6.92,667
+guaruja,8.52,7.12,217
+itu,8.49,7.03,129
+ferraz de vasconcelos,8.46,7.12,109
+limeira,8.42,7.1,186
+indaiatuba,8.33,7.2,273
+valinhos,8.27,7.24,181
+ribeirao pires,8.19,6.15,106
+sao caetano do sul,8.1,6.18,272
+sao bernardo do campo,8.09,6.33,911
+suzano,8.09,6.12,230
+santa barbara d'oeste,8.08,6.62,118
+sao paulo,8.07,6.53,15045
+itapevi,8.02,6.36,170
+guarulhos,8.0,6.87,1143
+santo andre,7.89,6.37,778
+sorocaba,7.82,6.73,609
+americana,7.81,6.63,216
+piracicaba,7.77,6.3,356
+osasco,7.7,6.43,724
+mogi das cruzes,7.65,6.33,374
+barueri,7.64,6.14,419
+carapicuiba,7.52,6.0,316
+braganca paulista,7.5,6.31,144
+franco da rocha,7.31,7.28,108
+cotia,7.2,6.15,242
+santana de parnaiba,7.2,6.29,178
+taboao da serra,6.93,5.82,284

@@ -1,0 +1,105 @@
+
+ENHANCED CLEANING COMPLETED: 2026-01-30 16:39:05
+
+ENHANCEMENTS IMPLEMENTED:
+========================
+1. ✓ Refined on-time delivery definition: -1 to +1 day grace period
+   - Previous: Only 1.3% on-time (too strict)
+   - Enhanced: 2.9% on-time (more realistic)
+
+2. ✓ Fixed master dataset duplicate handling
+   - Previous: 99,992 rows (551 duplicates)
+   - Enhanced: 99,441 rows (1:1 with orders maintained)
+   - Method: Aggregated reviews by order_id (kept highest score)
+
+3. ✓ Added separate early/late delivery statistics
+   - Late deliveries: 6,534 (6.8%) - avg 11.3 days delay
+   - Early deliveries: 87,187 (90.4%) - avg 13.2 days early
+   - On-time: 2,754 (2.9%)
+
+4. ✓ Integrated English category names
+   - All products now have readable English category names
+   - Makes visualization and analysis more accessible
+
+5. ✓ Added purchase hour temporal feature
+   - Enables time-of-day analysis
+
+CORE CLEANING PERFORMED:
+========================
+
+1. DATA TYPE CONVERSIONS:
+   ✓ 10 timestamp columns converted to datetime format
+   ✓ All date arithmetic now possible
+
+2. DUPLICATE HANDLING:
+   ✓ Geolocation: Removed 261,831 exact duplicates
+   ✓ Created aggregated version with 19,015 unique zip codes
+   ✓ No duplicate primary keys found in other tables
+   ✓ Reviews: Aggregated 551 duplicate reviews per order
+
+3. MISSING VALUE STRATEGY:
+   ✓ Orders: Created delivery completeness flags (kept all rows)
+   ✓ Products: Filled missing categories with 'unknown' (610 rows affected)
+   ✓ Reviews: Kept missing comments as NULL (valid user choice)
+   ✓ All missing data patterns documented with business justification
+
+4. OUTLIER HANDLING:
+   ✓ Created outlier flags for price, freight, and payment values
+   ✓ Kept all values (e-commerce naturally has wide ranges)
+   ✓ Validated geolocation coordinates within Brazil bounds
+
+5. FEATURE ENGINEERING:
+   ✓ Delivery metrics: actual_delivery_days, delivery_delay_days, is_late, is_early, is_on_time
+   ✓ Order aggregations: total_order_value, items_count
+   ✓ Temporal features: year, month, quarter, day_of_week, hour
+   ✓ Payment summary: aggregated multiple payments per order
+
+6. DATA VALIDATION:
+   ✓ All foreign key relationships verified
+   ✓ No negative values in financial columns
+   ✓ Date ranges validated: 2016-09-04 21:15:19 to 2018-10-17 17:30:18
+
+7. OUTPUT FILES:
+   ✓ 10 cleaned individual tables
+   ✓ master_orders.csv - Primary analytical dataset (99,441 rows)
+   ✓ order_items_detailed.csv - Item-level analysis (112,650 rows)
+
+KEY METRICS (ENHANCED):
+======================
+- Total Orders: 99,441
+- Complete Deliveries: 96,475 (97.0%)
+- Average Delivery Time: 12.6 days
+- Late Delivery Rate: 6.8%
+- On-Time Delivery Rate: 2.9%
+- Early Delivery Rate: 90.4%
+- Average Order Value: R$ 160.58
+- Average Items per Order: 1.14
+
+DELIVERY PERFORMANCE BREAKDOWN:
+==============================
+Late Deliveries (6,534):
+  • Percentage: 6.8%
+  • Average delay: 11.3 days late
+
+On-Time Deliveries (2,754):
+  • Percentage: 2.9%
+  • Within ±1 day of estimated delivery
+
+Early Deliveries (87,187):
+  • Percentage: 90.4%
+  • Average: 13.2 days early
+
+READY FOR ANALYSIS:
+===================
+✓ All 12+ core analytical questions can now be answered
+✓ Data quality validated and enhanced
+✓ No information loss from raw data
+✓ Clear documentation of all transformations
+✓ Master dataset maintains 1:1 relationship with orders
+✓ English category names for better visualization
+
+NEXT STEPS:
+===========
+→ Proceed to Exploratory Data Analysis (EDA)
+→ Answer the 12+ analytical questions
+→ Build Power BI dashboard

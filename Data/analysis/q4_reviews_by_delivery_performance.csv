@@ -1,0 +1,6 @@
+delivery_category,avg_review_score,median_review_score,order_count,avg_delay
+Very Early (>7 days),4.32,5.0,70934,-15.16
+Early (1-7 days),4.21,5.0,15784,-4.51
+On-Time (±1 day),4.1,5.0,2730,0.17
+Late (1-7 days),2.84,3.0,3128,3.79
+Very Late (>7 days),1.73,1.0,3253,18.33

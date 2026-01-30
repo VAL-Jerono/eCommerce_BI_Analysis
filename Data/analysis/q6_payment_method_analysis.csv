@@ -1,0 +1,6 @@
+primary_payment_type,avg_order_value,median_order_value,std_order_value,order_count
+credit_card,166.21,109.04,223.14,76132
+boleto,144.91,93.84,213.54,19784
+debit_card,141.52,89.3,239.88,1527
+voucher,113.54,74.67,138.76,1994
+not_defined,,,,3
