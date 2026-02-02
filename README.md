@@ -99,8 +99,7 @@ This analysis provides actionable insights for:
 - Customer satisfaction enhancement
 
 The findings could significantly improve operations for a R$ 16M e-commerce business while identifying growth opportunities in underserved regions. 
-- Mike Mbumbu (222076)
-- Brian Oira (222275)
+
 
 ## 🔬 Methodology
 
