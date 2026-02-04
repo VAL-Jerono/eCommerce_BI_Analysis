@@ -1,4 +1,4 @@
-# Brazilian E-Commerce Analytics - Olist Dataset
+# Brazilian E-Commerce Analytics - Olist Dataset.
 
 **Group 6 Analysis Project**
 
