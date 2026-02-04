@@ -81,7 +81,7 @@ All outputs are saved in `eCommerce_BI_Analysis/Data/analysis/`
 
 ## How to Run
 
-1. Open `eCommerce_BI_Analysis/Group6_CAT2.ipynb` in Jupyter
+1. Open `eCommerce_BI_Analysis/Group2_CAT2.ipynb` in Jupyter
 2. Run all cells sequentially
 3. Results will generate in `Data/analysis/` folder
 
@@ -281,8 +281,8 @@ For questions about methodology, findings, or collaboration opportunities:
 
 - **Primary Contact**: Valerie Jerono (222331)
 - **Statistical Analysis**: Esther Onyando (224069)
-- **Business Intelligence**: Mike Mbumbu (222076)  
-- **Data Visualization**: Brian Oira (222275)
+- **Business Intelligence**: Brian Oira (222275)
+- **Data Visualization**: Mike Mbumbu (222076)  
 
 ## 📄 License
 
@@ -291,20 +291,21 @@ This project is developed for academic purposes. Data usage follows Olist datase
 ---
 
 *This analysis represents a comprehensive examination of Brazilian e-commerce patterns, providing both academic rigor and practical business value. The insights generated could directly impact operational decisions for a R$ 16 million business while contributing to the broader understanding of Latin American digital commerce trends.*
-2. ✅ **Delivery Performance**: Average delivery times by region/state/city
-3. ✅ **Delivery Delays**: Regions and categories with highest delays
-4. ✅ **Review Score Impact**: How delivery performance affects customer satisfaction
-5. ✅ **Category Risk**: Categories with lowest reviews and highest risk signals
-6. ✅ **Payment Analysis**: Payment methods and their relationship to order value/completion
+
+1. ✅ **Delivery Performance**: Average delivery times by region/state/city
+2. ✅ **Delivery Delays**: Regions and categories with highest delays
+3. ✅ **Review Score Impact**: How delivery performance affects customer satisfaction
+4. ✅ **Category Risk**: Categories with lowest reviews and highest risk signals
+5. ✅ **Payment Analysis**: Payment methods and their relationship to order value/completion
 
 ### Additional Questions (7/7 - Exceeded Minimum of 4) ✅
-7. ✅ **Seller Delivery**: Top sellers contributing to late deliveries
-8. ✅ **Seller Satisfaction**: Sellers with lowest review scores
-9. ✅ **Shipping Cost Correlation**: Relationship between freight cost and delivery speed
-10. ✅ **Geographic Distribution**: Order distribution and top revenue regions
-11. ✅ **Category Revenue vs Satisfaction**: Top categories by revenue and satisfaction comparison
-12. ✅ **Order Size Impact**: Items per order relationship with delivery delay
-13. ✅ **Seasonality**: Purchase patterns and delivery performance during peak periods
+6. ✅ **Seller Delivery**: Top sellers contributing to late deliveries
+7. ✅ **Seller Satisfaction**: Sellers with lowest review scores
+8. ✅ **Shipping Cost Correlation**: Relationship between freight cost and delivery speed
+9. ✅ **Geographic Distribution**: Order distribution and top revenue regions
+10. ✅ **Category Revenue vs Satisfaction**: Top categories by revenue and satisfaction comparison
+11. ✅ **Order Size Impact**: Items per order relationship with delivery delay
+12. ✅ **Seasonality**: Purchase patterns and delivery performance during peak periods
 
 ## 📊 Key Findings Summary
 
